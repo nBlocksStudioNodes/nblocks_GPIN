@@ -1,0 +1,46 @@
+{
+    "category": "Input",
+    "name": "GPIN",
+    "inputs": 0,
+    "outputs": 3,
+    "parameters": [
+        {
+            "name": "pinIn",
+            "type": "raw",
+            "default": "P0_10",
+            "options": [
+                ""
+            ],
+            "value": "P0_10"
+        },
+        {
+            "name": "PinMode",
+            "type": "option",
+            "default": "PullNone",
+            "options": [
+                "PullUp\r",
+                "PullDown\r",
+                "PullNone\r",
+                "OpenDrain\r",
+                ""
+            ],
+            "value": "PullNone"
+        }
+    ],
+    "labels": {
+        "input": [],
+        "output": []
+    },
+    "schematic_pins": {
+        "inputs": [
+            0
+        ],
+        "outputs": [
+            1,
+            2,
+            3
+        ]
+    },
+    "repository": "https://github.com/nblocksStudioNodes/nblocks_gpin",
+    "revision": ""
+}
