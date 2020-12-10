@@ -9,5 +9,5 @@ The difference from GPI Node is
    *  OpenDrain
 
 The underneath mbed API is `DigitalIn`  
-Based on GPI Node
+Based on GPI Node  
 Author: Nikos Chalikias

@@ -5,7 +5,7 @@
     "outputs": 3,
     "parameters": [
         {
-            "name": "pinIn",
+            "name": "Pin",
             "type": "raw",
             "default": "P0_10",
             "options": [
