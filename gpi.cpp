@@ -3,7 +3,7 @@
 /// GPIN
 nBlock_GPIN::nBlock_GPIN(PinName pinIn, PinMode modeString)): _in(pinIn) {
     output[0] = _in;
-    //_in.mode(_mode); //set mode as PullUp/PullDown/PullNone/OpenDrain
+    _in.mode(_mode); //set mode as PullUp/PullDown/PullNone/OpenDrain
     available[0] = 1; // We start by firing the initial state
     return;
 }
